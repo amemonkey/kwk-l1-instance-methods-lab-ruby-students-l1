@@ -17,11 +17,6 @@
 # puts Dog.sit 
 # #should output "Woof!"
 
-# 
-# 
-# 
-# 
-
 
 
 
