@@ -24,13 +24,13 @@
 
 class Dog
   def initialize(bark, sit)
-    @bark 
-    @sit 
+    @bark = bark
+    @sit = sit
   end
   
   def bark
     @bark
-    puts "Woof"
+    puts = "Woof"
   end
   
   def sit
