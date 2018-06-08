@@ -29,7 +29,7 @@
 
 
 class Dog
-  def initialize(bark, sit)
+  def initialize
     @bark = bark
     @sit = sit
   end
