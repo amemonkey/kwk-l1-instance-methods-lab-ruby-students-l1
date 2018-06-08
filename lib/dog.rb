@@ -28,8 +28,6 @@
 
 
 
-
-
 class Dog
   def initialize(bark, sit)
     @bark = bark
@@ -37,8 +35,8 @@ class Dog
   end
   
   def bark
-    @bark
-    puts "Woof"
+    @bark = bark
+    puts "Woof!"
   end
   
   def sit
@@ -48,7 +46,8 @@ class Dog
   
 end
 
-Dog.bark.sit
+dog_one = Dog.new(bark)
+puts dog_one.bark 
 
 # adele_goldberg = Person.new("adele_goldberg")
 # alan_kay = Person.new("alan_kay")
