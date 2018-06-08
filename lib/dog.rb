@@ -35,7 +35,6 @@ class Dog
   end
   
   def bark
-    @bark = bark
     puts "Woof!"
   end
   
