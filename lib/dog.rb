@@ -46,7 +46,7 @@ class Dog
   
 end
 
-dog_one = Dog.new(bark)
+dog_one = Dog.new
 puts dog_one.bark 
 
 # adele_goldberg = Person.new("adele_goldberg")
